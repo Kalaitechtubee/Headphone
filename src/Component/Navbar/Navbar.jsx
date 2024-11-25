@@ -44,14 +44,14 @@ const Navbar = () => {
                     transition={{ duration: 1, delay: 0.5 }}
                     className='container flex justify-between items-center'>
                   
-                   {/* Logo Section */}
+                   
 
                     <div>
                         <a href='#' className='font-bold text-xl uppercase'>
                             Playing / <span className='font-extralight text-white'>Market</span>
                         </a>
                     </div>
-                    {/* Menu Section */}
+                
                     <div className='hidden md:block'>
                         <ul className='flex items-center gap-4'>
                             {
@@ -79,7 +79,7 @@ const Navbar = () => {
                             </UpdateFollower>
                         </ul>
                     </div>
-                    {/* Mobile Section */}
+                
                     <div className='md:hidden'>
                         <IoMenu className='text-4xl' />
                     </div>
