@@ -138,7 +138,7 @@ const Hero = () => {
 
 
                             <div className='mt-4'>
-                                {/* Headphone list separator */}
+                        
                                 <div className='flex items-center justify-center md:justify-start gap-4 !mt-white py-4 '>
                                     <div className='w-20 h-[1px] bg-white mt-10'></div>
 
@@ -149,7 +149,7 @@ const Hero = () => {
 
                                 </div>
                                 <div>
-                                    {/* Headphone List Switcher */}
+                                    
                                     <div className='grid grid-cols-3 '>
                                         {headphoneData.map((item) => {
                                             return (
